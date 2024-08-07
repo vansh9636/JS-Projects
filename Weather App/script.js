@@ -17,6 +17,7 @@ let images = {
 let imgsKeys = Object.keys(images);
 
 // this is mainlly body of code 
+
 function getLocation() {
     let SearchLocation = document.getElementById('location');
     let searchbtn = document.getElementById('search');
@@ -25,7 +26,7 @@ function getLocation() {
 
             // Api call and get data 
 
-            let apikey = 'efbe10f0fe6f96374bb2f0fa5c4c811e';
+            let apikey = '';//enter your api key 
             let cityname = SearchLocation.value;
             const fetchweater = async () => {
                 try {
@@ -39,7 +40,7 @@ function getLocation() {
                     document.getElementById('humidity').innerHTML = `<img src="${images.humidity}" alt="humidity"> ${(newdata.main.humidity)}%<br>Humidity`
                     document.getElementById('wind').innerHTML = `<img src="${images.wind}" alt="wind">${((newdata.wind.speed) * 3.6).toFixed(1)}km/h<br>Wind Speed`;
                     
-                    // display weather images++++ with DSA  
+                    // display weather images ++++ with DSA search method   
 
                     let weatherImg = newdata.weather[0].main;
                     for (let i = 0; i < imgsKeys.length; i++) {
