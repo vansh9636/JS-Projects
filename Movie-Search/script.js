@@ -1,5 +1,6 @@
 
-//  Movie search App  const 
+//  Movie search App
+
 function SeachMovie() {
     let findmovie = document.getElementById('findmovie');
     let findbtn = document.getElementById('searchbtn');
