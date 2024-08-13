@@ -1,0 +1,194 @@
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+     body {
+         font-family: 'Poppins', sans-serif;
+         background-color: #e5e8eb;
+         margin: 0;
+         display: flex;
+     }
+
+     #dets {
+         width: 100%;
+         /* height: 100px; */
+         background-color: #ffffff;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+         border-radius: 5px;
+         text-align: center;
+         margin-bottom: 20px;
+         padding: 10px 0;
+     }
+
+     #dets * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+
+     #dets h1 {
+         font-size: 31px;
+         text-transform: capitalize;
+         font-weight: 300;
+     }
+
+     #dets h5 {
+         color: gray;
+     }
+
+     #dashboard {
+         width: 75%;
+         padding: 20px;
+     }
+
+     #post-form {
+         margin-bottom: 20px;
+     }
+
+     #post-form h2 {
+         color: lightseagreen;
+         margin-top: 0;
+     }
+
+     #post-form input[type="text"] {
+         width: calc(100% - 22px);
+         padding: 10px;
+         margin: 10px 0;
+     }
+
+     #post-form input[type="file"] {
+         margin: 10px 0;
+     }
+
+     #post-form button {
+         font-size: 17px;
+         padding: 5px 10px;
+         border: 2px solid lightseagreen;
+         border-radius: 5px;
+         cursor: pointer;
+     }
+
+     #post-feed {
+         margin-top: 20px;
+     }
+
+     .post {
+         background: #ffffff;
+         border-radius: 8px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         padding: 10px;
+         margin-bottom: 10px;
+     }
+
+     .post p {
+         margin: 0;
+         margin: 10px 0;
+         color: #454141;
+     }
+
+     .post-image {
+         width: 100%;
+         border-radius: 8px;
+     }
+
+     #notification-sidebar {
+         width: 25%;
+         height: 50vh;
+         padding: 20px;
+         background-color: #ffffff;
+         border-radius: 8px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         position: sticky;
+         top: 20px;
+         overflow-y: auto;
+     }
+
+     #notification-sidebar a {
+         text-decoration: none;
+         color: lightseagreen;
+         font-size: 20px;
+         border-radius: 5px;
+         border: 1px solid;
+         padding: 5px;
+     }
+
+     #notification-list {
+         list-style: none;
+         padding: 0;
+     }
+
+     .notification {
+         background-color: #f8f9fa;
+         border: 1px solid #ddd;
+         border-radius: 4px;
+         padding: 10px;
+         margin-bottom: 10px;
+     }
+
+     .post {
+         background: #ffffff;
+         border-radius: 8px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+         padding: 10px;
+         margin-bottom: 10px;
+         position: relative;
+     }
+
+     .post-image {
+         width: 100%;
+         border-radius: 8px;
+     }
+
+     .post-actions {
+         display: flex;
+         justify-content: space-between;
+         margin-top: 10px;
+     }
+
+     .like-btn,
+     .comment-btn {
+         background-color: lightseagreen;
+         color: #ffffff;
+         border: none;
+         border-radius: 4px;
+         padding: 5px 10px;
+         cursor: pointer;
+         transition: background-color 0.3s ease;
+         font-size: 17px;
+     }
+
+     .like-btn:hover,
+     .comment-btn:hover {
+         background-color: rgb(26, 150, 144);
+     }
+
+     .comment-section {
+         margin-top: 10px;
+     }
+
+     .comment {
+         background-color: #f8f9fa;
+         border: 1px solid #ddd;
+         border-radius: 4px;
+         padding: 5px;
+         margin-top: 5px;
+     }
+
+     #notification-sidebar {
+         width: 25%;
+         padding: 20px;
+         background-color: #ffffff;
+         border-radius: 8px;
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     }
+
+     #notification-list {
+         list-style: none;
+         padding: 0;
+     }
+
+     .notification {
+         background-color: #f8f9fa;
+         border: 1px solid #ddd;
+         border-radius: 4px;
+         padding: 10px;
+         margin-bottom: 10px;
+     }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="./CSS/profile.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <h1>Profile</h1>
+            <img id="mainpropic" src="./defaul DP.png" alt="Profile Picture">
+        </div>
+
+        <!-- Form Container -->
+        <div class="form-container">
+            <form action="/submit" id="profile-form">
+                <input type="file" name="profile-picture" accept="image/*" id="prifile-pic">
+                <input type="text" name="username" id="profile-username" placeholder="Username" required>
+                <input type="email" name="email" id="profile-email" placeholder="Email" required>
+                <button type="submit">Update profile</button>
+            </form>
+        </div>
+    </div>
+    <script src="./JS/profile.js"></script>
+</body>
+
+</html>

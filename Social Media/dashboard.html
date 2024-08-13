@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="./CSS/dashboard.css">
+</head>
+
+<body>
+    <div id="dashboard">
+
+        <div id="post-form">
+            <div id="dets">
+                <h1>
+                    <!-- username vansh kumawat -->
+                </h1>
+                <h5>
+                    <!-- userEmailkumawtvansh365@gmail.com -->
+                </h5>
+
+            </div>
+            <h2>Post Someting</h2>
+            <form id="new-post-form">
+                <input type="text" id="post-text" placeholder="What's on your mind?" required>
+                <input type="file" id="post-image" accept="image/*">
+                <button type="submit" class="btn">Post</button>
+            </form>
+        </div>
+        <div id="post-feed">
+            <!-- Posts will be dynamically added here -->
+        </div>
+    </div>
+    <div id="notification-sidebar">
+        <a href="profile.html" class="btn"> <i class="ri-user-line"></i> View Profile</a>
+        <h2>Notifications</h2>
+        <ul id="notification-list">
+            <!-- Notifications will be dynamically added here -->
+        </ul>
+    </div>
+<script src="./JS/dashboard.js"></script>
+</body>
+
+</html>
