@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH QUIZ</title>
+    <link rel="stylesheet" href="MathQuiz.css">
+</head>
+
+<body>
+    <div id="homepage">
+        <img src="download.jpeg" alt="game logo"><br>
+        <button onclick={getvalue();startgame()}>start</button>
+        
+    </div>
+    <main>
+        <div id="score">
+            <span style="color:rgb(242, 27, 27);">0 <b>•</b></span>
+            <span style="color: #02c6f0;">0</span>
+        </div>
+        <div class="playerarea" id="firsec">
+            <div class="playerdisplay"></div>
+            <div class="answerbtn" id="player1">
+                <button class="allbtns">0</button>
+                <button class="allbtns">0</button>
+                <button class="allbtns">0</button>
+            </div>
+        </div>
+        <div class="playerarea">
+            <div class="playerdisplay"></div>
+            <div class="answerbtn" id="player2">
+                <button class="allbtns">0</button>
+                <button class="allbtns">0</button>
+                <button class="allbtns">0</button>
+            </div>
+
+        </div>
+    </main>
+    <script src="MathQuiz.js"></script>
+</body>
+
+</html>
