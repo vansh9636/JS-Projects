@@ -98,7 +98,7 @@ document.querySelectorAll('.allbtns').forEach(btn => {
 function Checkwinner(p1, p2){
     if (p1 == 10 || p2 == 10) {
         if (p1 == 10) {
-            console.log(' player 1 winner');
+            
             homePage.style.display = 'block';
             homePage.style.backgroundColor = 'rgb(137 193 216)';
             homePage.innerHTML = `<h1>BLUE <br>WIN</h1>`;
@@ -107,7 +107,7 @@ function Checkwinner(p1, p2){
             }, 3000);
         }
         else {
-            console.log(' player 2 winner');
+          
             homePage.style.display = 'block';
             homePage.style.backgroundColor = 'rgb(205 90 90)';
             homePage.innerHTML = `<h1>RED <br>WIN</h1>`;
