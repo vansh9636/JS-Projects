@@ -1,7 +1,7 @@
 
 //  Movie search App
 
-function SeachMovie() {
+function SearchMovie() {
     let findmovie = document.getElementById('findmovie');
     let findbtn = document.getElementById('searchbtn');
     findbtn.addEventListener("click", () => {
@@ -45,5 +45,6 @@ function SeachMovie() {
     })
 
 }
-SeachMovie();
+SearchMovie();
+
 
