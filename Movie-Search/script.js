@@ -10,7 +10,7 @@ function SeachMovie() {
         }
         else {
             let movieName = findmovie.value;
-            let Key = "35b915a8"
+            let Key = ""// enter your api key 
 
             const fetchMovie = async () => {
                 try {
@@ -46,3 +46,4 @@ function SeachMovie() {
 
 }
 SeachMovie();
+
